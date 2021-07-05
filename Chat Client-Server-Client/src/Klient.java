@@ -18,10 +18,10 @@ public class Klient{
     Socket gniazdo;
 
     public static void main(String[] args) {
-        Klient klient = new Klient("GJM");
+        Klient klient = new Klient("USER1");
         klient.polaczMnie();
 
-        Klient klient2 = new Klient("Blant");
+        Klient klient2 = new Klient("USER2");
         klient2.polaczMnie();
     }
 
